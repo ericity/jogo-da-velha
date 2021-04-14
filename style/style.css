@@ -1,0 +1,333 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:#0097E6 ;
+    display: flex;
+}
+.box-left{
+    width: 27.76%;
+    background-color:#0097E6 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-center{
+    width: 44.48%;
+    background-color:#04a6fd;
+    display: flex;
+    flex-direction: column;
+}
+.box-right{
+    width: 27.76%;
+    background-color:#0097E6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.campo-jogador-1{
+    width: 82%;
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 29px;
+    margin-top: 59px;
+    border-radius: 10px;
+    overflow: hidden;
+} 
+.embrulho-campo-jogador-1{
+    height: 40px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+}
+.input-jogador-1{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 27px;
+}
+.campo-jogador-2{
+    width: 82%;
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 21px;
+    border-radius: 10px;
+    overflow: hidden;
+} 
+.embrulho-campo-jogador-2{
+    height: 40px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+}
+.input-jogador-2{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:none;
+    padding-left: 27px;
+}
+.botao-input{
+    width: 82px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #0097E6;
+    border: none;
+    outline: none;
+    position: relative;
+    align-items: center;
+    margin-top: 5.5px;
+    margin-right: 5.5px;
+}
+.bola{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: 300ms;
+}
+.texto-tipo-de-partida{
+    color: #45F391;
+    font-size: 20px;
+
+}
+.opcao-de-partida{
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    justify-content: space-between;
+    width: 72%;
+    margin-bottom: 5px;
+}
+.span-melhor-de-tres{
+    padding-inline-end: 34px;
+}
+.span-melhor-de-cinco{
+    padding-inline-start: 34px;
+}
+.button-input-2{
+    width: 82px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #0097E6;
+    border-width: 2px;
+    outline: none;
+    position: relative;
+    align-items: center;
+}
+.bola-2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    transition: 300ms;
+}
+
+.button-play{
+    width: 85%;
+    height: 60px;
+    background: #45F391 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    opacity: 1;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 33px;
+    margin-bottom: 30px;
+}
+.historico-box-left{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 226px;
+    justify-content: space-evenly;
+    overflow:scroll ;
+}
+.texto-historico{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.vencedor{
+    width: 150px;
+    height: 58px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.resultado{
+    color: #45F391;
+    font-size: 30px;
+}
+.nome-do-vencedor{
+    color: black;
+}
+.texto-cenario{
+    color: #fff;
+    margin-top: 27px ;
+    font-size: 20px;
+}
+.div-campo-jogada{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(20px * 3 + 20px);
+    height: calc(20px * 3 + 20px);
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 8px;
+    margin-bottom: 36px;
+}
+.campo-jogada{
+    width: 24.78px;
+    height: 24.78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #6A6A6A;
+    background-color: #ffffff;
+    font-size: 15px;
+    user-select: none;
+} 
+.button-reiniciar{
+    width: 85%;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #0097E6;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.caixa-placar{
+    background-color: #fff;
+    width: 70%;
+    height: 109px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 59px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 27px;
+    overflow: hidden;
+}
+.placar{
+    color: #0097E6;
+    font-size: 30px;
+}
+.placar-01{
+    font-size: 55px;
+    color:#0097E6;
+    margin-right: 130px;
+    align-items: center;
+}
+.placar-02{
+    font-size: 55px;
+    color:#0097E6;
+    margin-left: 130px;
+    align-items: center;
+}
+.nome-jogador-box-center{
+    font-size: 23px;
+}
+.marcador-de-pontos{
+    display: flex;
+    font-size: 30px;
+}
+.campo-box-center{
+    margin-top: 59px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(170px * 3 + 23px);
+    height: calc(170px * 3 + 23px);
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 90.5px;
+    margin-top: 40px;
+  }
+  
+  .campo-jogada-box-center{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #6A6A6A;
+    background-color: #ffffff;
+    font-size: 150px;
+    cursor: pointer;
+    user-select: none;
+  }
+.teste{
+    display: flex;
+      
+  }
+.historico-partidas-box-right{
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    margin-bottom:15px ;
+}
+.historico-box-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-height: 518px;
+    margin-bottom: -150px;
+    overflow: scroll;
+} 
+.informacoes-jogador-1{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 60px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.informacoes-jogador-2{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 60px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.zero{
+    width: 60px;
+    height:100% ;
+    font-size: 55px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-right: 15px;
+}
+.texto-box-right{
+    flex-direction: column;
+    margin-top: 7px;
+}
+.nome-box-right-1{
+    font-size: 20px;
+}
+.nome-box-right-2{
+    font-size: 20px;
+}
+.local-da-figura-1{
+    color: #0097E6;
+}
+.local-da-figura-2{
+    color: #0097E6;
+}
+
+            
+            
