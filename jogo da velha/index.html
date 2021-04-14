@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="box-left">
+            <div class="campo-jogador-1">
+                <div class="embrulho-campo-jogador-1">
+                    <input class="input-jogador-1" type="text" placeholder="jogador 1">
+                </div>
+            </div>
+            <div class="campo-jogador-2">
+                <div class="embrulho-campo-jogador-2">
+                    <input class="input-jogador-2" type="text" placeholder="jogador 2"> 
+                    <button class="botao-input">
+                        <div class="bola"></div>
+                    </button>
+                </div>    
+            </div>    
+                    
+            <h3 class="texto-tipo-de-partida">Tipo de Partida</h3>
+                <div class="opcao-de-partida">
+                    <span class="span-melhor-de-03">melhor de tres</span> 
+                        <button class="button-input-2">
+                            <div class="bola-2"></div>
+                       </button>
+                    <span class="melhor-de-05">melhor de cinco</span>
+                </div>
+            <button class="button-play">jogar</button>
+            <h3 class="texto-historico">historico de partidas</h3>
+            <div class="historico-box-left">
+            <div class="vencedor">
+                    <h2 class="resultado">vencedor</h2> <span class="nome-do-vencedor">nome do jogador</span>
+            </div>
+                <span class="texto-cenario">cenario</span>
+            <div class="div-campo-jogada">
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            </div>
+            <div class="vencedor">
+                <h2 class="resultado">vencedor</h2> <span class="nome-do-vencedor">nome do jogador</span>
+            </div>
+                <span class="texto-cenario">Cenario</span>
+            <div class="div-campo-jogada">
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            <div class="campo-jogada">O</div>
+            </div>
+        </div>
+            <button class="button-reiniciar">Reiniciar</button>
+        </section>
+        <section class="box-center">
+        <div class="caixa-placar">
+            <div class="marcador-de-pontos">
+                <h3 class="placar-01">00</h3>
+            <h3 class="placar">placar</h3>
+            <h3 class="placar-02">00</h3>
+            </div>
+            <h2 class="nome-jogador-box-center">nome do jogador</h2>
+        </div>  
+        <div class="campo-box-center"> 
+         <div class="campo-jogada-box-center">O</div>
+         <div class="campo-jogada-box-center">X</div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+         <div class="campo-jogada-box-center"></div>
+        </div>
+        </section>
+        <section class="box-right">
+            <div class="teste">
+            <h3 class="historico-partidas-box-right">historico de partidas</h3>
+            </div>
+            <div class="historico-box-right">
+            <div class="informacoes-jogador-1">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-1">nome do jogador</span>
+                <h3 class="local-da-figura-1">primeiro quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-2">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-2">nome do jogador</span>
+                <h3 class="local-da-figura-2">segundo quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-1">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-1">nome do jogador</span>
+                <h3 class="local-da-figura-1">primeiro quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-2">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-2">nome do jogador</span>
+                <h3 class="local-da-figura-2">segundo quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-1">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-1">nome do jogador</span>
+                <h3 class="local-da-figura-1">primeiro quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-2">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-2">nome do jogador</span>
+                <h3 class="local-da-figura-2">segundo quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-1">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-1">nome do jogador</span>
+                <h3 class="local-da-figura-1">primeiro quadrado</h3>
+                </div>
+            </div>
+            <div class="informacoes-jogador-2">
+                <div class="zero">
+                <h1>O</h1>
+                </div>
+                <div class="texto-box-right">
+                <span class="nome-box-right-2">nome do jogador</span>
+                <h3 class="local-da-figura-2">segundo quadrado</h3>
+                </div>
+            </div>            
+            </div>
+        </section>
+    </main>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
